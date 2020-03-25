@@ -1,0 +1,228 @@
+/*总体*/
+html, body {
+    font-size: 12px;
+    color: #000;
+    font-family: "����";
+    margin: 0px;
+    height: 100%;
+    width: 99.8%;
+}
+
+/*查询条件样式*/
+.searchDiv {
+    width: 100%;
+    font-size: 12px;
+}
+
+table.S-table {
+    border-collapse: collapse;
+}
+
+table.S-table tr td {
+    font-size: 12px;
+    color: #666666;
+}
+
+.h-line1{
+padding-top:6px;
+padding-bottom:4px;
+width:100%;
+float:left
+}
+.h-line1 select{
+	
+	line-height: 17px;
+	font-size: 12px;
+	vertical-align: middle;
+}
+.h-line1-linetwo
+{
+padding-top:4px;
+display:block;
+word-break: break-all;
+word-wrap: break-word;
+line-height:35px;
+padding-bottom:4px;
+width:100%;
+float:left
+}
+.h-line2{
+width:100%;
+float:left
+}
+.h-line2 select{
+	
+	line-height: 17px;
+	font-size: 12px;
+	vertical-align: middle;
+}
+.searchname {
+    border-bottom: 1px solid #bcbcbc;
+    height: 41px;
+    background: url(../images/search-images/search-bg.png) repeat-x ;
+}
+
+table tr td.searchname {
+    color: #ffffff;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.S-cont {
+    background: url(../images/search-images/S-cont.png) repeat-x #e9ecf1;
+    height: 35px;
+    line-height: 35px;
+
+}
+
+  td.S-cont {
+    padding-left: 10px;
+    white-space: nowrap;
+	vertical-align: middle;
+}
+
+input.S-input {
+    width: 155px;
+    height: 17px;
+    line-height: 17px;
+    font-size: 12px;
+    vertical-align: middle;
+    border: 1px solid #A0A0A0;
+}
+
+
+.S-cont-linetwo {
+    background: url(../images/search-images/S-cont.png) repeat-x #e9ecf1 top;
+}
+
+
+  td.S-cont-linetwo {
+    padding-left: 10px;   
+	vertical-align: middle;
+}
+
+
+
+td.S-func-cont   {
+    padding-right: 15px;
+    background: #f7f7f7;
+    height: 35px;
+    line-height: 35px;
+    text-align: right;
+    border-top: 1px solid #C0C8D0;
+}
+
+
+
+.S-func-cont-center {
+    background: #f7f7f7;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+	border-collapse: collapse;
+	border:border-top: 1px solid #C0C8D0;
+}/*?*/
+
+td.S-func-cont-up{
+    padding-right: 15px;
+    background: #f7f7f7;
+    height: 35px;
+    line-height: 35px;
+    text-align: right;
+}
+
+td.S-func-cont-down {
+    padding-right: 15px;
+    background: #f7f7f7;
+    height: 35px;
+    line-height: 35px;
+    text-align: right;
+}
+
+
+input.S-BTN-ACT {
+    background:url('../images/cancel-normal-bg.png') repeat-x;
+    height: 22px;
+	border:none;color:#FFFFFF
+    text-align: center;
+    padding: auto 10px;
+    color:#FFFFFF;
+    vertical-align: middle;
+	margin-left:15px;
+	display:none;
+}
+
+input.S-button {
+    background: url(../images/search-images/button-normal.jpg) repeat-x;
+    height: 22px;
+    border: 1px solid #C5C5C5;
+    text-align: center;
+    padding: auto 100px;
+    color: #666666;
+    vertical-align: middle;
+}
+
+input.S-button:hover {
+    background: url(../images/search-images/button-hover.jpg) repeat-x;
+    border: 1px solid #225289;
+    color: #ffffff;
+}
+
+.tb1 .td {
+    font-size: 12px;
+    font-family: "����";
+    color: #000000;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    background: #f8f8f8
+}
+
+hr {
+    height: 1px;
+    color: #7A7A7A
+}
+
+/******************************************************************************/
+.menu_bg a {
+    padding-left: 15px;
+    line-height: 20px;
+    color: #666;
+    text-decoration: none;
+    background: url(../images/base.gif) no-repeat;
+}
+
+#pagetitle {
+    background: #D8D8DA url(../images/sprite.png) repeat-x 0 0; # B6CDE1;
+	border: 1px solid #93B2CC;
+	text-align: left;
+	height:35px;
+	
+}
+
+#pagetitle h1 {
+	text-indent: 15px;
+	padding: 4px 0 2px 0;
+	margin: 0;
+	color: #000;
+	font-size: 120%;
+	font-weight: bold;
+	position: relative;
+	left: -1px;
+	top: -1px;
+	margin-right: -2px;
+}
+
+#pagetitle h1 em {
+	color: #FF9933;
+	font-size: 60%;
+	font-weight: bold;
+	font-style: normal;
+	position: relative;
+	top: -6px
+}
+
+#count{
+	font-weight: bold;
+}

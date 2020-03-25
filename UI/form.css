@@ -1,0 +1,62 @@
+@CHARSET "GBK";
+html{scrollbar-3dlight-color:#D4D0C8;scrollbar-highlight-color:#fff;scrollbar-face-color:#E4E4E4;scrollbar-arrow-color:#666;scrollbar-shadow-color:#808080;scrollbar-darkshadow-color:#D7DCE0;scrollbar-base-color:#D7DCE0;scrollbar-track-color:#;}
+body  {font-size:12px;background:#f9f9fa;}
+table {border-collapse:collapse;font-size:12px;}
+.Table-title{background:url('../images/table-title.png') repeat-x; height:36px; line-height:36px;padding-left:5px;}
+ table.Table  tr td{border:1px solid  #D2D2D2}
+ table thead tr th{border:1px solid  #D2D2D2;text-align: center;vertical-align: middle;font-weight:bold;}
+/*.neirong table tr td{border:1px solid  #D2D2D2;padding-left:5px;}*/
+.Table-content{background:url('../images/table-tr-bg.png') repeat-x; padding-left:5px;height:32px; }
+.Table-content td,.Table-content-textarea td{padding-left:5px;}
+.Table-content-textarea{background:url('../images/textarea-bg.png') repeat-x;border-left:1px solid  #D2D2D2;}
+.Table-content-textarea  textarea{width:80%;font-family:"宋体";border:1px  solid #BAC0CC;margin:5px 0 5px  0}
+.td-col-1{width:15%; vertical-align:middle}
+.td-col-2{width:85%; vertical-align:middle}
+.td-col-3{width:15%; vertical-align:middle}
+.td-col-4{width:35%; vertical-align:middle}
+.td-col-6{width:25%; vertical-align:middle}
+.td-col-7{width:75%; vertical-align:middle}
+.td-col-8{width:33%; vertical-align:middle}
+.td-col-9{width:40%; vertical-align:middle}
+.td-col-3-1{width:33.3%; vertical-align:middle}
+.td-col-5-Merge{width:85%; vertical-align:middle}
+.td-col-3-1{width:60%; vertical-align:middle}/** 用于文件提交第一列 ***/
+.td-col-3-2{width:20%; vertical-align:middle}/** 用于文件提交第二列 ***/
+.td-col-3-3{width:20%; vertical-align:middle}/** 用于文件提交第三列 ***/
+.td-col-4-1{width:10%; vertical-align:middle}/** 用于批量上传文件提交第一列 ***/
+.td-col-4-2{width:60%; vertical-align:middle}/** 用于批量上传文件提交第二列 ***/
+.td-col-4-3{width:15%; vertical-align:middle}/** 用于批量上传文件提交第三列 ***/
+.td-col-4-4{width:15%; vertical-align:middle}/** 用于批量上传文件提交第四列 ***/
+.input1{width:70%;border:1px  solid #BAC0CC;word-break:break-all;}
+.input1:hover{width:70%;border: 1px solid #E6BF73;word-break:break-all;}
+.input2{width:88%;border:1px  solid #BAC0CC;word-break:break-all;}/* 单元格合并两列后的控件样式*/
+.input2:hover{width:88%;border: 1px solid #E6BF73;word-break:break-all;}
+.selcet1{width:71%;border:1px solid #BAC0CC;height:22px;word-break:break-all;}
+.selcet1:hover{width:71%;border: 1px solid #E6BF73;height:22px;word-break:break-all;}
+.selcet2{width:20%;border:1px solid #BAC0CC;height:22px;word-break:break-all;}
+.selcet2:hover{width:20%;border: 1px solid #E6BF73;height:22px;word-break:break-all;}
+.Table-footer td{height:40px;line-height:40px;vertical-align:middle;background:#F6F6F8; border-left:1px solid  #D2D2D2;border-right:1px solid  #D2D2D2;border-bottom:1px solid  #D2D2D2;text-align:center;margin-left:15px;}
+input.sure{width:60px;background:url('../images/sure-normal-bg.png') repeat-x;height:27px;border:none;color:#FFFFFF;margin-left:15px;}
+input.sure:hover{background:url('../images/sure-hover-bg.png') repeat-x;}
+input.disable{background:#ccc;}
+input.disable:hover{background:#ccc;}
+input.cancle{width:60px;background:url('../images/cancel-normal-bg.png') repeat-x;height:27px;border:none;color:#FFFFFF;margin-left:15px;}
+input.cancle:hover{background:url('../images/cancel-hover-bg.png') repeat-x;}
+.validate-cont{color:red;line-height:15px;}
+.s-textarea{word-break:break-all;}
+.input-textarea{word-break:break-all;}
+#info{text-align:center;}
+/*特殊样式*/
+input.sure-1{width:140px;background:url('../images/sure-normal-bg.png') repeat-x;height:27px;border:none;color:#FFFFFF;margin-left:15px;}
+input.sure-1:hover{background:url('../images/sure-hover-bg.png') repeat-x;margin-left:15px;}
+.query-input{width:71%;border:1px solid #BAC0CC;height:22px;word-break:break-all;}
+.query-input:hover{width:71%;border: 1px solid #E6BF73;height:22px;word-break:break-all;}
+input.btnClass{background: url(../images/search-images/button-normal.jpg) repeat-x;height: 22px;border: 1px solid #C5C5C5;text-align: center;padding: auto 100px;color: #666666; vertical-align: middle;}
+input.Wdate{
+	width:70% !important;
+	height:20px !important;
+	border:1px  solid #BAC0CC !important;
+	word-break:break-all !important;
+}
+.td-col-3x1{width:25%; vertical-align:middle}
+.td-col-3x2{width:50%; vertical-align:middle}
